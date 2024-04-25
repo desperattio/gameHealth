@@ -1,4 +1,4 @@
-import getHealthLevel from '../src/app';
+import getHealthLevel from '../app';
 
 test('test healthy character', () => {
   const hero = { name: 'Маг', health: 90 };
